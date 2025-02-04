@@ -52,6 +52,21 @@ public class Book
 		this.quantite = quantite;
 	}
 	
+	public String getAuthorName() 
+	{
+		   return author.getName();
+	}
+	
+	public String getAuthorEmail() 
+	{
+		   return author.getEmail();
+	}
+	
+	public String getAuthorGender() 
+	{
+		   return author.getName();
+	}
+	
 	public String toString()
 	{
 		return "Book [nom = " + name + ", " + author + ", prix = " + price + "€, quantité = " + quantite + "]";
