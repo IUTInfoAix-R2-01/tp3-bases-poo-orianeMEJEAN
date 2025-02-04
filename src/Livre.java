@@ -27,20 +27,20 @@ public class Livre
 		return quantite;
 	}
 	
-	/*public String setName(String name)
+	/*public void setName(String name)
 	{
 		this.name = name;   
 	}
 	
-	public double setPrice(float price)
+	public void setPrice(float price)
 	{
 		this.price = price;
-	}
+	}*/
 	
-	public int setQuantite(int quantite)
+	public void setQuantite(int quantite)
 	{
 		this.quantite = quantite;
-	}*/
+	}
 	
 	public String toString()
 	{
